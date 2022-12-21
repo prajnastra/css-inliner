@@ -29,6 +29,9 @@ executable css-inliner
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.16.4.0
+    build-depends:    
+        base ^>=4.16.4.0,
+        hxt >=9.3,
+        haskell-say ^>=1.0.0.0
     hs-source-dirs:   app
     default-language: Haskell2010
